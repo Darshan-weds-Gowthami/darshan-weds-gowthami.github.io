@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Darshan weds Gowthami//Itinerary//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Darshan & Gowthami's wedding
+X-WR-TIMEZONE:Asia/Kolkata
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:haldi-2026@darshan-weds-gowthami.github.io
+DTSTAMP:20261124T120000Z
+DTSTART:20261204T033000Z
+DTEND:20261204T063000Z
+SUMMARY:Darshan & Gowthami: Haldi
+DESCRIPTION:https://darshan-weds-gowthami.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:sangeetha-2026@darshan-weds-gowthami.github.io
+DTSTAMP:20261124T120000Z
+DTSTART:20261204T130000Z
+DTEND:20261204T173000Z
+SUMMARY:Darshan & Gowthami: Sangeetha evening
+DESCRIPTION:https://darshan-weds-gowthami.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:varapooje-2026@darshan-weds-gowthami.github.io
+DTSTAMP:20261124T120000Z
+DTSTART:20261205T103000Z
+DTEND:20261205T130000Z
+SUMMARY:Darshan & Gowthami: Varapooje
+DESCRIPTION:https://darshan-weds-gowthami.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:aarathi-2026@darshan-weds-gowthami.github.io
+DTSTAMP:20261124T120000Z
+DTSTART:20261205T130000Z
+DTEND:20261205T170000Z
+SUMMARY:Darshan & Gowthami: Aarathi-Akshathe
+DESCRIPTION:https://darshan-weds-gowthami.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:muhurtha-2026@darshan-weds-gowthami.github.io
+DTSTAMP:20261124T120000Z
+DTSTART:20261206T030000Z
+DTEND:20261206T040000Z
+SUMMARY:Darshan & Gowthami: Wedding muhurtha
+LOCATION:Viva Fern Leaf Resorts\, Urdigere Road\, Devarayanadurga\, Tumakuru\, Karnataka
+DESCRIPTION:https://darshan-weds-gowthami.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:beegara-2026@darshan-weds-gowthami.github.io
+DTSTAMP:20261124T120000Z
+DTSTART:20261209T070000Z
+DTEND:20261209T110000Z
+SUMMARY:Darshan & Gowthami: Aarathi-Akshathe and Beegara Oota
+LOCATION:J.M. Convention Hall\, Mulluru Road\, K.R. Nagara\, Karnataka
+DESCRIPTION:https://darshan-weds-gowthami.github.io/
+END:VEVENT
+END:VCALENDAR
