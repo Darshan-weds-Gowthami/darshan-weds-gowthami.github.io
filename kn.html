@@ -177,6 +177,14 @@ h2{font-family:var(--f-display);font-weight:500;font-size:var(--s-xl);line-heigh
 .maps .kn{font-size:inherit;color:var(--zari-soft)}
 .maps .sep{width:1px;align-self:stretch;background:var(--bark)}
 .maps svg{width:18px;height:18px}
+.cal{width:100%;display:flex;flex-direction:column;align-items:center;gap:.6rem;margin-top:.6rem}
+.cal-g{display:flex;flex-direction:column;align-items:center;width:100%}
+.cal-g summary{cursor:pointer;color:var(--bark);font-size:var(--s-sm);text-decoration:underline;text-underline-offset:3px}
+.cal-g ul{box-sizing:border-box;list-style:none;margin:.7rem 0 0;padding:.4rem .9rem;width:100%;border:1px solid var(--line);background:var(--card);border-radius:4px}
+.cal-g li+li{border-top:1px solid var(--line)}
+.cal-g li a{display:block;padding:.55rem 0;color:var(--maroon);text-decoration:none}
+.cal-g li a::after{content:" +";color:var(--zari)}
+.cal-hint{margin:0;color:var(--bark);font-size:var(--s-sm)}
 
 .count{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.5rem;width:100%}
 .unit{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:.8rem .15rem;display:flex;flex-direction:column;align-items:center;gap:.3rem}
@@ -523,6 +531,25 @@ main,footer{overflow-x:hidden;overflow-x:clip}   /* 3D layers lean out a little;
 <li class="ev main"><div class="ev-date"><span class="dow kn">ಭಾನು</span><span class="dn">06</span><span class="mo kn">ಡಿಸೆಂ</span></div><div class="ev-items"><div class="bi top item"><div><span class="ev-time kn">ಬೆಳಿಗ್ಗೆ 8:30 ರಿಂದ 9:30</span><span class="ev-name kn">ವಿವಾಹ ಮುಹೂರ್ತ</span><span class="ev-note kn">ಲಗ್ನ : ಧನಸ್ಸು</span><span class="ev-place kn">ವಿವಾ ಫರ್ನ್ ಲೀಫ್ ರೆಸಾರ್ಟ್ಸ್, ದೇವರಾಯನದುರ್ಗ</span></div></div></div></li>
 <li class="ev"><div class="ev-date"><span class="dow kn">ಬುಧ</span><span class="dn">09</span><span class="mo kn">ಡಿಸೆಂ</span></div><div class="ev-items"><div class="bi top item"><div><span class="ev-time kn">ಮಧ್ಯಾಹ್ನ 12:30</span><span class="ev-name kn">ಆರತಿ-ಅಕ್ಷತೆ / ಬೀಗರ ಔತಣ</span><span class="ev-place kn">ಜೆ.ಎಂ. ಕನ್ವೆನ್ಷನ್ ಹಾಲ್, ಕೆ.ಆರ್. ನಗರ</span></div></div></div></li>
 </ol>
+<div class="cal">
+<a class="maps cal-btn" href="webcal://darshan-weds-gowthami.github.io/itinerary.ics"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4M12 13v5M9.5 15.5h5"></path></svg><span class="kn">ಆಪಲ್ ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಸೇರಿಸಿ</span></a>
+<a class="maps cal-btn" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fdarshan-weds-gowthami.github.io%2Fitinerary.ics" rel="noopener" target="_blank"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4M12 13v5M9.5 15.5h5"></path></svg><span class="kn">ಗೂಗಲ್ ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಸೇರಿಸಿ</span></a>
+<p class="cal-hint kn">ಎಲ್ಲ ಕಾರ್ಯಕ್ರಮಗಳು ಪ್ರತ್ಯೇಕ ಕ್ಯಾಲೆಂಡರ್ ಆಗಿ ಸೇರುತ್ತವೆ.</p>
+<details class="cal-g"><summary class="kn">ಒಂದೊಂದಾಗಿ ಸೇರಿಸಿ</summary>
+<ul>
+<li><a href="itinerary.ics" download=""><span class="kn">ಎಲ್ಲವನ್ನೂ ಫೈಲ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ (.ics)</span></a></li>
+</ul>
+<p class="cal-hint kn">ಅಥವಾ ಗೂಗಲ್ ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಒಂದೊಂದೇ ಕಾರ್ಯಕ್ರಮ:</p>
+<ul>
+<li><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%E0%B2%A6%E0%B2%B0%E0%B3%8D%E0%B2%B6%E0%B2%A8%E0%B3%8D+%26+%E0%B2%97%E0%B3%8C%E0%B2%A4%E0%B2%AE%E0%B2%BF%3A+%E0%B2%B9%E0%B2%B3%E0%B2%A6%E0%B2%BF+%E0%B2%B6%E0%B2%BE%E0%B2%B8%E0%B3%8D%E0%B2%A4%E0%B3%8D%E0%B2%B0&amp;dates=20261204T033000Z%2F20261204T053000Z&amp;ctz=Asia%2FKolkata&amp;details=https%3A%2F%2Fdarshan-weds-gowthami.github.io%2F" rel="noopener" target="_blank"><span class="kn">ಹಳದಿ ಶಾಸ್ತ್ರ</span></a></li>
+<li><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%E0%B2%A6%E0%B2%B0%E0%B3%8D%E0%B2%B6%E0%B2%A8%E0%B3%8D+%26+%E0%B2%97%E0%B3%8C%E0%B2%A4%E0%B2%AE%E0%B2%BF%3A+%E0%B2%B8%E0%B2%82%E0%B2%97%E0%B3%80%E0%B2%A4+%E0%B2%B8%E0%B2%82%E0%B2%9C%E0%B3%86&amp;dates=20261204T130000Z%2F20261204T160000Z&amp;ctz=Asia%2FKolkata&amp;details=https%3A%2F%2Fdarshan-weds-gowthami.github.io%2F" rel="noopener" target="_blank"><span class="kn">ಸಂಗೀತ ಸಂಜೆ</span></a></li>
+<li><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%E0%B2%A6%E0%B2%B0%E0%B3%8D%E0%B2%B6%E0%B2%A8%E0%B3%8D+%26+%E0%B2%97%E0%B3%8C%E0%B2%A4%E0%B2%AE%E0%B2%BF%3A+%E0%B2%B5%E0%B2%B0%E0%B2%AA%E0%B3%82%E0%B2%9C%E0%B3%86&amp;dates=20261205T103000Z%2F20261205T123000Z&amp;ctz=Asia%2FKolkata&amp;details=https%3A%2F%2Fdarshan-weds-gowthami.github.io%2F" rel="noopener" target="_blank"><span class="kn">ವರಪೂಜೆ</span></a></li>
+<li><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%E0%B2%A6%E0%B2%B0%E0%B3%8D%E0%B2%B6%E0%B2%A8%E0%B3%8D+%26+%E0%B2%97%E0%B3%8C%E0%B2%A4%E0%B2%AE%E0%B2%BF%3A+%E0%B2%86%E0%B2%B0%E0%B2%A4%E0%B2%BF-%E0%B2%85%E0%B2%95%E0%B3%8D%E0%B2%B7%E0%B2%A4%E0%B3%86&amp;dates=20261205T130000Z%2F20261205T153000Z&amp;ctz=Asia%2FKolkata&amp;details=https%3A%2F%2Fdarshan-weds-gowthami.github.io%2F" rel="noopener" target="_blank"><span class="kn">ಆರತಿ-ಅಕ್ಷತೆ</span></a></li>
+<li><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%E0%B2%A6%E0%B2%B0%E0%B3%8D%E0%B2%B6%E0%B2%A8%E0%B3%8D+%26+%E0%B2%97%E0%B3%8C%E0%B2%A4%E0%B2%AE%E0%B2%BF%3A+%E0%B2%B5%E0%B2%BF%E0%B2%B5%E0%B2%BE%E0%B2%B9+%E0%B2%AE%E0%B3%81%E0%B2%B9%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%A4&amp;dates=20261206T030000Z%2F20261206T040000Z&amp;ctz=Asia%2FKolkata&amp;details=https%3A%2F%2Fdarshan-weds-gowthami.github.io%2F&amp;location=Viva+Fern+Leaf+Resorts%2C+Urdigere+Road%2C+Devarayanadurga%2C+Tumakuru%2C+Karnataka" rel="noopener" target="_blank"><span class="kn">ವಿವಾಹ ಮುಹೂರ್ತ</span></a></li>
+<li><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%E0%B2%A6%E0%B2%B0%E0%B3%8D%E0%B2%B6%E0%B2%A8%E0%B3%8D+%26+%E0%B2%97%E0%B3%8C%E0%B2%A4%E0%B2%AE%E0%B2%BF%3A+%E0%B2%86%E0%B2%B0%E0%B2%A4%E0%B2%BF-%E0%B2%85%E0%B2%95%E0%B3%8D%E0%B2%B7%E0%B2%A4%E0%B3%86+%2F+%E0%B2%AC%E0%B3%80%E0%B2%97%E0%B2%B0+%E0%B2%94%E0%B2%A4%E0%B2%A3&amp;dates=20261209T070000Z%2F20261209T100000Z&amp;ctz=Asia%2FKolkata&amp;details=https%3A%2F%2Fdarshan-weds-gowthami.github.io%2F&amp;location=J.M.+Convention+Hall%2C+Mulluru+Road%2C+K.R.+Nagara%2C+Karnataka" rel="noopener" target="_blank"><span class="kn">ಆರತಿ-ಅಕ್ಷತೆ / ಬೀಗರ ಔತಣ</span></a></li>
+</ul>
+</details>
+</div>
 </section>
 
 <section aria-labelledby="venueH">
